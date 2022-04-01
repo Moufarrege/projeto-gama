@@ -1,0 +1,159 @@
+
+.artigo{
+    width: 1032px;  
+    margin: auto;
+}
+.cabecario{
+    font-family: 'Ubuntu', Arial, sans-serif;
+    text-align: center;
+    margin-bottom: 74px;
+}
+h1{
+    margin: auto;
+    margin-top: 111px;
+    color:#ff4081;
+    font-weight: 500;
+    font-size: 50px;
+}
+span{
+    margin-bottom: 74px;
+    color: #9d9d9d;
+    font-weight: 300px;
+    font-size: 18px;
+}
+img{
+    width: 1032px;
+    height: 465px;
+    background-color: #c4c4c4;
+    margin-bottom: 65px;
+}
+p{
+    margin: 0;
+    font-family: 'Ubuntu', Arial, sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+}
+h3{
+    font-size: 32px;
+    font-family: 'Ubuntu', Arial, sans-serif;
+    color: #009688;
+    font-weight: 500;
+}
+h4{
+    font-family: 'Ubuntu', Arial, sans-serif;
+    font-size: 50px;
+    font-weight: 500;
+    text-align: center;
+    color: #ff4081;
+    margin-top: 190px;
+    margin-bottom: 101px;
+
+}
+.figura_rodape{
+    width: 288px;
+    height: 279.06px;
+    margin-bottom: 52.1px;
+}
+h5{
+    margin:0;
+    margin-bottom: 28.32px;
+    font-size: 25px;
+    font-family: 'Ubuntu', Arial, sans-serif;
+    font-weight: 700,bold;
+    margin-right: 0px;
+}
+.bottom{
+    width:293px;
+    font-size: 17px;
+    font-weight: 300;
+    text-align: center;
+    
+}
+input{
+    border-radius: 62px;
+    background-color: #ff4081;
+    color: white;
+    width: 233px;
+    height: 62.81px;
+    margin-top: 32.02px;
+    margin-bottom: 98.09px;
+    border: none;
+}
+.block{
+    align-items: center;
+    text-align: center;
+    margin-left: -700px;
+    margin-right: -700px;
+}
+.rodape{
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    align-items: center;
+}
+
+
+
+@media only screen and (max-width:769px) {
+    .cabecario{
+        margin-left: -270px;
+    }
+    img{
+        width: 757px;
+        height: 335px;
+        margin-left: 3px;
+    }
+    P{
+        width: 740px;
+        margin-left: 6px;
+    }
+    h3{
+        font-size: 28px;
+    }
+    .rodape{
+        display: block;
+    }
+    .bottom{text-transform: none;}
+    h5{
+        margin-bottom: 0px;
+    }
+    input{
+        margin-top: -20px;
+    }
+
+}
+
+@media only screen and (max-width:481px) {
+  
+    }
+    h1{ 
+        font-size: 30px;
+        margin-left: -300px;
+    }
+    span{
+        font-size: 16px;
+        margin-left: -300px;
+
+    }
+    img{
+        width: 450px;
+        height: 203px;
+        margin-left: 10px;
+    }
+    P{
+        width: 450px;
+        margin-left: 10px;
+    }
+    h3{
+        font-size: 19px;
+    }
+    .rodape{
+        display: block;
+    }
+    .bottom{text-transform: none;}
+    h5{
+        margin-bottom: 0px;
+    }
+    input{
+        margin-top: -20px;
+    }

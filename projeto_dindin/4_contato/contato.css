@@ -1,0 +1,119 @@
+#container{
+
+    display: flex;
+}
+img{
+    width: 444px;  
+    margin-top: -160px;  
+    padding-bottom:100px;
+    padding-top: 50px;
+    padding-right: 90px;
+   
+}
+
+h1{
+    margin-top: 105px;
+    margin-bottom: 44px;
+    font-family: 'Ubuntu', Arial, sans-serif;
+    font-size: 40px;
+    margin-left: 150px;
+    color: #ff4081;
+
+}
+
+input{
+    margin-left: 150px;
+    margin-top: 0px;
+    margin-bottom: 15px;
+    padding-left: 22.13px;
+    border: 1px solid #686868;
+    box-sizing: border-box;
+    border-radius: 7px;
+    width: 493px;
+    height: 32px;
+    font-size: 16px;
+    font-family: Nunito;
+    font-weight: 400;
+   
+}
+textarea{
+    margin-left: 150px;
+    margin-bottom: 15px;
+    padding-left: 22.13px;
+    padding-top: 10px;
+    border: 1px solid #686868;
+    box-sizing: border-box;
+    border-radius: 7px;
+    width: 493px;
+    height: 183px;
+    font-size: 16px;
+    font-family: Nunito;
+    font-weight: 400;
+    resize: none;
+   
+}
+.botao{
+    width:108px;
+    height: 32px;
+    border: 1px solid #ff4081;
+    border-radius: 50px;
+    background-color: #ff4081;
+    color: white;
+    text-align:left;
+    padding-left: 30px;
+    margin-right:400px;
+}
+
+@media only screen and (max-width:1160px) {
+    #container{
+        display: block;
+    }
+
+ aside{
+     margin-left: 192px;
+     margin-top: 130px;
+
+ }
+    
+}
+@media only screen and (max-width:769px) {
+  h1{
+     margin-left: 10px;
+  }
+  input{
+    margin-left: 10px;
+  }
+
+  textarea{
+    margin-left: 10px;
+  }
+  .botao{
+    margin-left: 10px;
+  }
+  aside{
+    margin-left: 10px;
+  }
+}
+@media only screen and (max-width:565px) {
+    h1{
+       margin-left: 10px;
+       width: 400px;
+    }
+    input{
+      margin-left: 10px;
+      width: 400px;
+    }
+  
+    textarea{
+      margin-left: 10px;
+      width: 400px;
+    }
+    .botao{
+      margin-left: 10px;
+    }
+    aside{
+        width: 300px;
+      margin-left: 10px;
+      
+    }
+  }
