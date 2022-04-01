@@ -45,7 +45,7 @@ h1{
 }
 
 #background{
-    background: url('/projeto_dindin/assets/styles/imagens/sentado_na_nuvem.png') 100% no-repeat;
+    background: url('../assets/styles/imagens/sentado_na_nuvem.png') 100% no-repeat;
     width: 501px;
     height: 511px;
     margin:0;

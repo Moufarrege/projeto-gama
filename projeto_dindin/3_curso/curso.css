@@ -25,7 +25,7 @@ h1{
 
 }
 #background{
-    background: url('/projeto_dindin/assets/styles/imagens/xadrez_cavalo.png') 50% no-repeat;
+    background: url('../assets/styles/imagens/xadrez_cavalo.png') 50% no-repeat;
     width: 380px;
     height: 381px;
     margin:0;
